@@ -1,13 +1,52 @@
+/* ----------
+    RESET
+    --------- */
+
 * {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
 
+/* ----------
+    COMMON
+    --------- */
 body {
     font-family: 'Lato', sans-serif;
     margin: auto;
 }
+
+.btn-primary {
+    background-color: blue;
+    border: none;   
+    padding: 10px;
+    color: white;
+    text-align: center;       
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px 0 0;
+}
+
+.container-principale {
+    max-width: 800px;
+    text-align: left;
+    margin: auto;
+}
+
+.title-section {
+    font-size: 40px;
+}
+
+/* ----------
+    HEADER
+    --------- */
 
 header {
     background-color: white;
@@ -27,6 +66,14 @@ header {
     padding-right: 20px;
 }
 
+.logo-header {
+    vertical-align: middle;
+}
+
+/* ----------
+    MAIN-hero
+    --------- */
+
 .container-big {
     height: 660px;
     background-color: white; 
@@ -44,17 +91,15 @@ header {
     margin: auto;
 }
 
+.column-hero {
+    display: flex;
+}
+
 .col-small {
     width: 300px;
     height: 480px;
     display: flex;
     flex-direction: column;
-
-}
-
-.column-hero {
-    display: flex;
-    width: 1000px;
 }
 
 .col-big {
@@ -67,44 +112,19 @@ header {
     height: auto;
 }
 
-h1 {
+.title-hero {
     font-size: 70px;
     padding: 80px 0 50px 0;
 }
 
-.btn-primary {
-    background-color: blue;
-    border: none;   
-    padding: 10px;
-    color: white;
+.btn-hero {
     text-align: left;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 127px;
 }
 
-.btn-header {
-    border: none;
-    background-color: blue;
-    padding: 10px;
-    color: white;
-}
-
 .icon-hero {
     font-size: 45px;
     padding-top: 45px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    margin: 0 20px 0 0;
-}
-
-.logo-header {
-    vertical-align: middle;
 }
