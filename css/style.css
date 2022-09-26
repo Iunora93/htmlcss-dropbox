@@ -44,6 +44,8 @@ header {
     width: 250px;
     height: 480px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 
 }
 
