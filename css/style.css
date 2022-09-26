@@ -35,6 +35,30 @@ header {
 }
 
 .container-box {
-    max-width: 1200px;
-    background-color: ;
+    max-width: 800px;
+    text-align: left;
+    margin: auto;
+}
+
+.col-small {
+    width: 250px;
+    height: 480px;
+    border: 1px solid black;
+
+}
+
+.column-hero {
+    display: flex;
+}
+
+.col-big {
+    width: 550px;
+    height: 530px;
+    border: 1px solid black;
+
+}
+
+h1 {
+    font-size: 54px;
+    padding: 80px 0 50px 0;
 }
