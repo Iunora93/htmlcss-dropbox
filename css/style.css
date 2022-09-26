@@ -36,6 +36,7 @@ header {
 .container-short {
     height: 630px;
     background-color: #b4d0e7;
+    position: relative;
 }
 
 .container-box {
@@ -81,4 +82,10 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 127px;
+}
+
+.icon-hero {
+    font-size: 45px;
+    position: absolute;
+    bottom: 0;
 }
