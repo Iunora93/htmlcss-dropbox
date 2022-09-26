@@ -6,4 +6,35 @@ padding: 0;
 
 body {
     font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+.container-header {
+    height: 80px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-big {
+    height: 800px;
+    background-color: white; 
+}
+
+.container-short {
+    height: 740px;
+    background-color: #b4d0e7;
+}
+
+.container-box {
+    max-width: 1200px;
+    background-color: ;
 }
