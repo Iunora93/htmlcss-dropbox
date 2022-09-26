@@ -38,10 +38,12 @@ a {
     max-width: 800px;
     text-align: left;
     margin: auto;
+    padding-top: 165px;
 }
 
 .title-section {
-    font-size: 40px;
+    font-size: 35px;
+    padding-bottom: 50px;
 }
 
 /* ----------
@@ -127,4 +129,34 @@ header {
 .icon-hero {
     font-size: 45px;
     padding-top: 45px;
+}
+
+/* ---------
+    SECONDA SEZIONE
+    ------------ */
+
+.radio {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+input {
+    margin-right: 3px;
+}
+
+.second-radio {
+    margin-left: 30px;
+}
+
+/* ----------
+    TERZA SEZIONE
+    ---------- */
+.colonne-fatturazione {
+    display: flex;
+}
+
+.column {
+    width: 267px;
+    height: 500px;
+    border: solid 1px black;
 }
