@@ -199,6 +199,10 @@ input {
     margin-bottom: 50px;
 }
 
+.column-six {
+    border: none;
+}
+
 /* ----------
     COLONNA TEAM
     --------- */
@@ -296,4 +300,9 @@ hr {
 
 .btn-enterprise {
     margin-top: 0px;
+}
+
+.img-operazioni {
+    width: 100%;
+    height: auto;
 }
