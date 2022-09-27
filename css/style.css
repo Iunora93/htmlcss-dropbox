@@ -28,10 +28,14 @@ ul {
     list-style-type: none;
 }
 
-a {
+.link-none {
     text-decoration: none;
     color: black;
     margin: 0 20px 0 0;
+}
+
+a {
+    color: blue;
 }
 
 .container-principale {
@@ -44,6 +48,7 @@ a {
 .title-section {
     font-size: 35px;
     padding-bottom: 50px;
+    padding-top: 80px;
 }
 
 h3 {
