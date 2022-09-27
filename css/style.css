@@ -276,3 +276,24 @@ hr {
 .check {
     color: blue;
 }
+
+.box-vendite {
+    margin: 20px;
+    display: flex;
+}
+
+.col-enterprise {
+    width: 70%;
+}
+
+.col-button {
+    width: 30%;
+}
+
+.soluzioni-enterprise {
+    font-size: 12px;
+}
+
+.btn-enterprise {
+    margin-top: 0px;
+}
