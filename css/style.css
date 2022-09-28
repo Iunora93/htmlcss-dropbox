@@ -470,8 +470,48 @@ width: 100%;
     padding-bottom: 110px;
 }
 
+
+
+/* ----------
+    FOOTER
+    --------- */
+
 footer {
     background-color: black;
     height: 800px;
+    padding-bottom: 50px
 }
 
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-footer {
+    width: calc(100% / 5 - 50px);
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hr-footer {
+    width: 120px;
+}
+
+.li-footer {
+    color: white;
+}
+
+.chevron-up {
+    padding-left: 10px;
+}
+
+.title-footer {
+    color: white;
+}
+
+.descr-footer {
+    color: white;
+    font-size: 14px;
+}
