@@ -417,3 +417,8 @@ background-color: #ffd830;
     filter: invert(1);
 }
 
+.container-sky {
+    background-color: #b4d0e7;
+    height: 300px;
+}
+
