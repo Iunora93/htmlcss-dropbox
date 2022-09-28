@@ -54,11 +54,9 @@ a {
 .title-section {
     font-size: 35px;
     padding-bottom: 50px;
-    padding-top: 80px;
 }
 
 h3 {
-    padding-top: 30px;
     padding-bottom: 30px;
     text-align: left;
 }  
@@ -67,6 +65,11 @@ h3 {
     height: 480px;
     display: flex;
     flex-direction: column;
+    
+}
+
+.terza-sezione {
+    margin-top: 30px;
 }
 
 .col-big {
@@ -292,6 +295,8 @@ hr {
     width: 70%;
 }
 
+
+
 .col-button {
     width: 30%;
 }
@@ -417,8 +422,56 @@ background-color: #ffd830;
     filter: invert(1);
 }
 
+.two-col {
+    display: flex;
+}
 .container-sky {
     background-color: #b4d0e7;
-    height: 300px;
+    
+}
+
+.title-different {
+    font-size: 35px;
+    color: #61082b;
+}
+
+.col-left {
+    margin-bottom: 140px;
+    width: 70%;
+}
+
+.col-right {
+    width: 30%;
+}
+
+.btn-different {
+    margin: 30px 0;
+    padding: 10px;
+    margin-block-start: auto;
+    margin-left: 63px;
+}
+
+.domanda {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr-domande {
+width: 100%;
+}
+
+.btn-domande {
+    margin-right: 20px;
+    border: none;
+    background-color: transparent;
+} 
+
+.end-container {
+    padding-bottom: 110px;
+}
+
+footer {
+    background-color: black;
+    height: 800px;
 }
 
